@@ -177,20 +177,22 @@ background-color: #0d0e0d;
   }
 
   .image-box {
-      flex: 1; 
-      margin: 0 10px; 
-      text-align: center; 
+      flex: 0 0 calc(25% - 20px);
+      margin: 0 10px 20px;
+      text-align: center;
   }
 
   .image-box img {
-      width: 100%; 
-      height: auto;
-      border-radius: 8px; 
+      width: 90%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
   }
 
   .image-box p {
       margin-top: 10px; 
       font-size: 16px; 
+      color: black;
   }
 
 
@@ -206,7 +208,11 @@ background-color: #0d0e0d;
   padding-bottom: 20px;
 }
 
-.home-text h1,
+.home-text h1 {
+  color: black;
+  font-size: 32px;
+}
+
 .home-text p {
   color: black;
 }
@@ -214,8 +220,8 @@ background-color: #0d0e0d;
 .home-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; 
-  gap: 20px;
+  justify-content: flex-start;
+  margin: 0 -10px;
 }
 
 .service-boxes {
