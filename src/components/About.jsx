@@ -11,19 +11,19 @@ function About() {
             <div className="divider"></div>
             <div className="image-gallery">
               <div className="image-box">
-                <img src="https://static.wikia.nocookie.net/wayv/images/3/32/NCT_The_3rd_Album_%E2%80%98Universe%E2%80%99_JAEHYUN.jpg/revision/latest?cb=20211122143046" alt="Image 1" />
+                <img src="https://static.wikia.nocookie.net/wayv/images/3/32/NCT_The_3rd_Album_%E2%80%98Universe%E2%80%99_JAEHYUN.jpg" alt="Image 1" />
                 <p>Founder / Principal Interior Designer</p>
               </div>
               <div className="image-box">
-                <img src="https://static.wikia.nocookie.net/wayv/images/e/e4/NCT_The_3rd_Album_%E2%80%98Universe%E2%80%99_MARK.jpg/revision/latest/scale-to-width-down/1000?cb=20211122143213" alt="Image 2" />
+                <img src="https://static.wikia.nocookie.net/wayv/images/e/e4/NCT_The_3rd_Album_%E2%80%98Universe%E2%80%99_MARK.jpg" alt="Image 2" />
                 <p>Senior Project Architect</p>
               </div>
               <div className="image-box">
-                <img src="https://static.wikia.nocookie.net/wayv/images/e/e4/NCT_The_3rd_Album_%E2%80%98Universe%E2%80%99_TAEYONG.jpg/revision/latest?cb=20211122142913" alt="Image 3" />
+                <img src="https://static.wikia.nocookie.net/wayv/images/e/e4/NCT_The_3rd_Album_%E2%80%98Universe%E2%80%99_TAEYONG.jpg" alt="Image 3" />
                 <p>Project Designer / Marketing Assistant</p>
               </div>
               <div className="image-box">
-                <img src="https://static.wikia.nocookie.net/wayv/images/8/80/NCT_The_3rd_Album_%E2%80%98Universe%E2%80%99_JOHNNY.jpg/revision/latest?cb=20211122142905" alt="Image 4" />
+                <img src="https://static.wikia.nocookie.net/wayv/images/8/80/NCT_The_3rd_Album_%E2%80%98Universe%E2%80%99_JOHNNY.jpg" alt="Image 4" />
                 <p>Senior Interior Designer / Marketing Lead</p>
               </div>
             </div>
