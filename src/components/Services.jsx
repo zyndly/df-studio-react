@@ -2,7 +2,14 @@ function Services() {
     return (
       <div id="services" className="content-section">
         <h2>Services</h2>
-        <p>Explore our comprehensive range of services designed to meet your architectural needs.</p>
+        <div className="service-philosophy">
+          <p>
+            We believe in designing buildings and environments that are purposeful, simple, efficient and beautiful. These four priorities help us to shape all kinds of buildings, from stadiums to bridges to metro stations or places of work.
+          </p>
+          <p>
+            Great architecture is always centred around people – their needs, their lives, their choices. This central idea has guided our thinking for more than 50 years, building on our long commitment to 'total architecture' – where designs gain from the insights of every stakeholder and specialist involved. The results are buildings, places and spaces that enhance the human experience, and are sustainable and resilient throughout their lifespans. From lead design to technical specialist architecture, we have expertise in a wide range of sectors and design across all scales and types. Our teams help clients to develop exhilarating sporting venues, produce environmentally ambitious commercial developments, connect communities through intuitive and efficient transport systems, and deliver cutting edge scientific and industrial facilities.
+          </p>
+        </div>
         <div className="service-boxes">
           <div className="service-box">
             <h3>Interior Design</h3>
@@ -21,6 +28,7 @@ function Services() {
             <p>We manage all aspects of construction projects, ensuring that they are completed on time and within budget. Our experienced team delivers quality workmanship and attention to detail.</p>
           </div>
         </div>
+
       </div>
     );
   }
