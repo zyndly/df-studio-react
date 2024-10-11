@@ -351,3 +351,28 @@ footer {
     width: 100%;
   }
 }
+
+.about-container .image-gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow-x: auto;
+  padding: 20px 0;
+}
+
+.about-container .image-box {
+  flex: 0 0 auto;
+  width: 22%;
+  margin-right: 20px;
+}
+
+.about-container .image-box:last-child {
+  margin-right: 0;
+}
+
+.about-container .image-box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
