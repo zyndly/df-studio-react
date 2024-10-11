@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 function Contact() {
     return (
       <div id="contact" className="content-section">

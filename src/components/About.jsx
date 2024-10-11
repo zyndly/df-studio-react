@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 function About() {
     return (
       <div id="about-us" className="content-section">
