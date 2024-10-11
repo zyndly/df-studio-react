@@ -155,7 +155,7 @@ background-color: #0d0e0d;
 }
 
 .about-text {
-  background-color: rgba(255, 255, 255, 0.9);
+/*   background-color: rgba(255, 255, 255, 0.9); */
   padding: 20px;
   text-align: justify;
   font-size: 18px;
